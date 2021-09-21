@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../../favicon.ico" />
+  <link rel="shortcut icon" href="../assets/favicon.ico" />
   <link href="https://images.carriercms.com/" rel="preconnect">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="http://s7.addthis.com/" rel="preconnect">

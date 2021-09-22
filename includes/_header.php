@@ -1,5 +1,6 @@
 <?php
-$base_url = 'http://localhost/markdesign/careers';
+// $base_url = 'http://localhost/markdesign/careers';
+$base_url = 'http://localhost/Mark_Design/carrierdotcom';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -669,6 +670,11 @@ $base_url = 'http://localhost/markdesign/careers';
                 <li class="dropdown nav-item position-relative">
                   <a href="<?= $base_url; ?>/healthy-buildings/index.php" target="_self" class="nav-link">
                     Healthy Buildings
+                  </a>
+                </li>
+                <li class="dropdown nav-item position-relative">
+                  <a href="<?= $base_url; ?>/blog/index.php" target="_self" class="nav-link">
+                    Blog
                   </a>
                 </li>
                 <li class="nav-item">

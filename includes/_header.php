@@ -10,9 +10,11 @@ $base_url = 'http://localhost/markdesign/careers';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="<?= $base_url ?>/assets/favicon.ico" />
   <link href="https://images.carriercms.com/" rel="preconnect">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="http://s7.addthis.com/" rel="preconnect">
-  <meta name="title" content="About Us | Carrier air conditioning, heating and refrigeration" />
   <title>Carrier Indonesia</title>
   <link rel="canonical" href="index.html" />
   <meta property="og:image" content="https://images.carriercms.com/image/upload/h_200/v1576864343/common/logos/carrier-logo.png" />
@@ -21,17 +23,12 @@ $base_url = 'http://localhost/markdesign/careers';
   <meta name="twitter:site" content="Carrier" />
   <meta name="twitter:creator" content="Carrier" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/app.min.css">
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/global.min.css" />
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/style.min.css" />
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/fonts.min.css">
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/styles.css">
 </head>
 
 <body>
   <header>
     <div class="container-fluid fixed-top px-0 ct-header-basic">
-
-
       <div class="ct-header-basic-cta">
         <div class="row d-block d-md-none bg-light">
           <div class="col">
@@ -158,7 +155,7 @@ $base_url = 'http://localhost/markdesign/careers';
             <div id="navbarNavDropdown1" class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto">
                 <li class="dropdown nav-item position-relative">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="sr-only"></span></a>
+                  <a class="nav-link text-uppercase dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="sr-only"></span></a>
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown1">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
@@ -415,7 +412,7 @@ $base_url = 'http://localhost/markdesign/careers';
                   </div>
                 </li>
                 <li class="dropdown nav-item position-relative">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service<span class="sr-only"></span></a>
+                  <a class="nav-link text-uppercase dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service<span class="sr-only"></span></a>
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown2">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
@@ -534,7 +531,7 @@ $base_url = 'http://localhost/markdesign/careers';
                   </div>
                 </li>
                 <li class="dropdown nav-item position-relative">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software<span class="sr-only"></span></a>
+                  <a class="nav-link text-uppercase dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software<span class="sr-only"></span></a>
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown4">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
@@ -670,19 +667,19 @@ $base_url = 'http://localhost/markdesign/careers';
                   </div>
                 </li>
                 <li class="dropdown nav-item position-relative">
-                  <a href="../healthy-buildings/index.html" target="_self" class="nav-link">
+                  <a href="../healthy-buildings/index.html" target="_self" class="nav-link text-uppercase">
                     Healthy Buildings
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" target="_blank" href="https://www.carrier.com/nationalaccounts/en/us/" id="navbarDropdown9">Sustainability
+                  <a class="nav-link text-uppercase" target="_blank" href="https://www.carrier.com/nationalaccounts/en/us/" id="navbarDropdown9">Sustainability
                     <i class="material-icons align-bottom">open_in_new
                       <span class="sr-only">Opens in a new window</span>
                     </i>
                   </a>
                 </li>
                 <li class="dropdown nav-item position-relative">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown10" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us<span class="sr-only"></span></a>
+                  <a class="nav-link text-uppercase dropdown-toggle" href="#" id="navbarDropdown10" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us<span class="sr-only"></span></a>
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown10">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">

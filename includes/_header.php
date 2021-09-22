@@ -1,5 +1,5 @@
 <?php
-$base_url = 'http://localhost/markdesign/careers';
+$base_url = 'http://localhost/Mark_Design/carrierdotcom/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -95,7 +95,7 @@ $base_url = 'http://localhost/markdesign/careers';
       <div class="container ct-header-basic-brand-bar">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-          <a href="../index.html" class="ct-brand-logo-link">
+          <a href="index.php" class="ct-brand-logo-link">
             <img class="cld-responsive ct-brand-logo" data-src="https://images.carriercms.com/image/upload/h_150,q_100,f_auto/v1573562016/common/logos/carrier-corp-logo.png" alt="Carrier Global Corporation, Global Carrier Company, Carrier HVAC, Carrier Refrigeration, Carrier Fire, Carrier Security" loading="lazy" />
             <div class="d-none d-sm-inline-block">Indonesia</div>
           </a>
@@ -443,7 +443,7 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/operate-service-and-protect/index.php" target="_self" class="nav-link">
+                          <a href="<?php echo($base_url); ?>/carrierdotcom/service/operate-service-and-protect/index.php" target="_self" class="nav-link">
                             Operate, Service &amp; Protect
                           </a>
                         </li>

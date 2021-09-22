@@ -674,11 +674,6 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                     Healthy Buildings
                   </a>
                 </li>
-                <li class="dropdown nav-item position-relative">
-                  <a href="<?= $base_url; ?>/blog/index.php" target="_self" class="nav-link">
-                    Blog
-                  </a>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link" target="_blank" href="https://www.carrier.com/nationalaccounts/en/us/" id="navbarDropdown9">Sustainability
                     <i class="material-icons align-bottom">open_in_new
@@ -697,12 +692,12 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/core-values/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>about/core-values/index.php" target="_self" class="nav-link">
                             Core Values
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/about/fact-sheet/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>about/fact-sheet/index.php" target="_self" class="nav-link">
                             Fact Sheet
                           </a>
                         </li>

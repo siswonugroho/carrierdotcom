@@ -9,20 +9,20 @@
         </div>
         <div class="col-md-2 h-100">
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
-            <li class="nav-item link-text-strong">
+            <li class="nav-item link-text-strong text-dark">
               Products </li>
             <li class="nav-item link-text-indent">
-              <a href="../products/airside/index.html" target="_self" class="nav-link">
+              <a href="../products/airside/index.html" target="_self" class="nav-link text-dark">
                 Commercial
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../products/chillers-components/index.html" target="_self" class="nav-link">
+              <a href="../products/chillers-components/index.html" target="_self" class="nav-link text-dark">
                 Light Commercial
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="https://www.carrier.com/residential/en/us/" target="_blank" class="nav-link">
+              <a href="https://www.carrier.com/residential/en/us/" target="_blank" class="nav-link text-dark">
                 Residential
                 <i class="material-icons align-bottom">
                   open_in_new
@@ -33,30 +33,30 @@
         </div>
         <div class="col-md-2 h-100">
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
-            <li class="nav-item link-text-strong">
+            <li class="nav-item link-text-strong text-dark">
               Service </li>
             <li class="nav-item link-text-indent">
-              <a href="../service/index.html" target="_self" class="nav-link">
+              <a href="../service/index.html" target="_self" class="nav-link text-dark">
                 Overview
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../service/operate-service-and-protect/index.html" target="_self" class="nav-link">
+              <a href="../service/operate-service-and-protect/index.html" target="_self" class="nav-link text-dark">
                 Operate, Service & Protect
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../service/retrofit-and-optimize/index.html" target="_self" class="nav-link">
+              <a href="../service/retrofit-and-optimize/index.html" target="_self" class="nav-link text-dark">
                 Retrofit & Optimize
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../service/request-information/index.html" target="_self" class="nav-link">
+              <a href="../service/request-information/index.html" target="_self" class="nav-link text-dark">
                 Request Information
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../service/service-forms/index.html" target="_self" class="nav-link">
+              <a href="../service/service-forms/index.html" target="_self" class="nav-link text-dark">
                 Service Forms
               </a>
             </li>
@@ -64,22 +64,22 @@
         </div>
         <div class="col-md-2 h-100">
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
-            <li class="nav-item link-text-strong">
+            <li class="nav-item link-text-strong text-dark">
               Software </li>
             <li class="nav-item link-text-indent">
-              <a href="../software/index.html" target="_self" class="nav-link">
+              <a href="../software/index.html" target="_self" class="nav-link text-dark">
                 Hourly Analysis Program
               </a>
             </li>
           </ul>
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
             <li class="nav-item link-text-strong">
-              <a href="https://www.carrier.com/nationalaccounts/en/us/" target="_blank" class="nav-link">
+              <a href="https://www.carrier.com/nationalaccounts/en/us/" target="_blank" class="nav-link text-dark">
                 Healthy Buildings
               </a>
             </li>
             <li class="nav-item link-text-strong">
-              <a href="https://www.carrier.com/nationalaccounts/en/us/" target="_blank" class="nav-link">
+              <a href="https://www.carrier.com/nationalaccounts/en/us/" target="_blank" class="nav-link text-dark">
                 Sustainability
               </a>
             </li>
@@ -87,30 +87,30 @@
         </div>
         <div class="col-md-2 h-100">
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
-            <li class="nav-item link-text-strong">
+            <li class="nav-item link-text-strong text-dark">
               About </li>
             <li class="nav-item link-text-indent">
-              <a href="index.html" target="_self" class="nav-link">
+              <a href="index.html" target="_self" class="nav-link text-dark">
                 About Carrier
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="core-values/index.html" target="_self" class="nav-link">
+              <a href="core-values/index.html" target="_self" class="nav-link text-dark">
                 Core Values
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="fact-sheet/index.html" target="_self" class="nav-link">
+              <a href="fact-sheet/index.html" target="_self" class="nav-link text-dark">
                 Fact Sheet
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="willis-carrier/index.html" target="_self" class="nav-link">
+              <a href="willis-carrier/index.html" target="_self" class="nav-link text-dark">
                 Willis Carrier
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="history/index.html" target="_self" class="nav-link">
+              <a href="history/index.html" target="_self" class="nav-link text-dark">
                 History
               </a>
             </li>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-md-2 h-100">
           <ul class="ct-menusub-basic-header mr-auto submenu-title">
-            <li class="nav-item link-text-strong">
+            <li class="nav-item link-text-strong text-dark">
               Connect </li>
             <div itemscope itemtype="http://schema.org/Organization" class="social-icons-share ct-social-media-lists">
               <link itemprop="url" href="https://www.carrier.com/" />
@@ -148,27 +148,27 @@
               </a>
             </div>
             <li class="nav-item link-text-indent">
-              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link">
+              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link text-dark">
                 Inquiry Form
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link">
+              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link text-dark">
                 Genuine Part Verification
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link">
+              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link text-dark">
                 Call center: (+62) 21 2660 8088
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link">
+              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link text-dark">
                 Chat with Us on WhatsApp
               </a>
             </li>
             <li class="nav-item link-text-indent">
-              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link">
+              <a href="../contact-us/send-an-inquiry/index.html" target="_self" class="nav-link text-dark">
                 Find a dealer
               </a>
             </li>
@@ -179,19 +179,15 @@
     </div>
   </footer>
   <footer class="container ct-deep-footer">
-    <div class="row">
+    <div class="row text-dark">
       <div class="col text-center">
-        <div class="deepFooterLinks"><a class="" title="Privacy Notice" target="_self" href="../legal/privacy-notice/index.html">Privacy Notice</a> | <a class="" title="Terms of Use" target="_self" href="../legal/terms-of-use/index.html">Terms of Use</a> | <a class="" title="Sitemap" target="_self" href="../sitemap/index.html">Sitemap</a></div>
-        <div><a href="https://www.corporate.carrier.com/" target="_blank" rel="noopener">A Carrier Company</a></div>
+        <div class="deepFooterLinks"><a class="text-dark" title="Privacy Notice" target="_self" href="../legal/privacy-notice/index.html">Privacy Notice</a> | <a class="text-dark" title="Terms of Use" target="_self" href="../legal/terms-of-use/index.html">Terms of Use</a> | <a class="text-dark" title="Sitemap" target="_self" href="../sitemap/index.html">Sitemap</a></div>
+        <div><a class="text-dark" href="https://www.corporate.carrier.com/" target="_blank" rel="noopener">A Carrier Company</a></div>
         <div>©2021 Carrier. All Rights Reserved.</div>
       </div>
     </div>
     <div id="teconsent" class="consent-button" />
   </footer>
-  <div class="cookie-message">
-    <script async="async" src="http://consent.truste.com/notice?domain=carrier.com&amp;text=true&amp;c=teconsent&amp;js=nj&amp;noticeType=bb&amp;gtm=1&amp;cookieLink=https%3A%2F%2Fwww.carrier.com%2Fcommercial%2Fen%2Fus%2Flegal%2Fprivacy-notice%2F&amp;privacypolicylink=https%3A%2F%2Fwww.carrier.com%2Fcommercial%2Fen%2Fus%2Flegal%2Fprivacy-notice%2F" crossorigin=""></script>
-    <div id="consent_blackbar" class="consent-text"></div>
-  </div>
 </div>
 <script src="<?= $base_url ?>/assets/scripts/app.min.js"></script>
 <script type="text/javascript">

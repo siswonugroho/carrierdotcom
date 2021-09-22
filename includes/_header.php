@@ -1,5 +1,5 @@
 <?php
-$base_url = 'http://localhost/markdesign/careers';
+$base_url = 'http://localhost/Mark_Design/carrierdotcom';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +14,9 @@ $base_url = 'http://localhost/markdesign/careers';
   <link href="http://s7.addthis.com/" rel="preconnect">
   <meta name="title" content="About Us | Carrier air conditioning, heating and refrigeration" />
   <title>Carrier Indonesia</title>
-  <link rel="canonical" href="index.html" />
+  <link rel="canonical" href="index.php" />
   <meta property="og:image" content="https://images.carriercms.com/image/upload/h_200/v1576864343/common/logos/carrier-logo.png" />
-  <meta property="og:url" content="index.html" />
+  <meta property="og:url" content="index.php" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="Carrier" />
   <meta name="twitter:creator" content="Carrier" />
@@ -39,7 +39,7 @@ $base_url = 'http://localhost/markdesign/careers';
               <p class="pb-1 mb-0 small"><strong>24/7 Commercial Service</strong></p>
               <p class="pb-1 mb-0"><strong><em class="material-icons" style="color:#152c73;">call</em> <a href="tel:800-379-6484" target="_self">1-800-379-6484</a></strong></p>
             </div>
-            <a class="btn btn-primary btn-sm btn-block" role="button" href="../find-an-expert/index.html">
+            <a class="btn btn-primary btn-sm btn-block" role="button" href="<?= $base_url; ?>/find-an-expert/index.php">
               Find an expert
             </a>
           </div>
@@ -69,7 +69,7 @@ $base_url = 'http://localhost/markdesign/careers';
                   </li>
                 </ul>
                 <form id="searchForm" class="navbar-form navbar-right" method="get">
-                  <input type="hidden" id="formURL" value="../search.html" />
+                  <input type="hidden" id="formURL" value="<?= $base_url; ?>/search.php" />
                   <div class="input-group">
                     <input name="q" id="q" type="text" class="form-control" placeholder="Search" aria-label="Search" autocomplete="new search text">
                     <label for="q" class="sr-only">Search</label>
@@ -95,7 +95,7 @@ $base_url = 'http://localhost/markdesign/careers';
       <div class="container ct-header-basic-brand-bar">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-          <a href="../index.html" class="ct-brand-logo-link">
+          <a href="<?= $base_url; ?>/index.php" class="ct-brand-logo-link">
             <img class="cld-responsive ct-brand-logo" data-src="https://images.carriercms.com/image/upload/h_150,q_100,f_auto/v1573562016/common/logos/carrier-corp-logo.png" alt="Carrier Global Corporation, Global Carrier Company, Carrier HVAC, Carrier Refrigeration, Carrier Fire, Carrier Security" loading="lazy" />
             <div class="d-none d-sm-inline-block">Indonesia</div>
           </a>
@@ -118,7 +118,7 @@ $base_url = 'http://localhost/markdesign/careers';
           </div>
 
           <div class="ml-auto d-none d-md-flex">
-            <a href="" class="col px-0">
+            <a href="<?= $base_url; ?>/contact-us" class="col px-0">
               <span class="d-flex flex-column align-items-center text-center">
                 <span class="iconify" data-icon="mdi:file-document-edit-outline" data-width="36"></span>
                 <small class="pb-1 mb-0 text-uppercase font-weight-bold">Inquiry form</small>
@@ -145,7 +145,7 @@ $base_url = 'http://localhost/markdesign/careers';
               </span>
             </a>
             <div class="col d-flex align-items-center">
-              <a class="btn btn-primary btn-sm float-right" role="button" href="../find-an-expert/index.html" target="_self">
+              <a class="btn btn-primary btn-sm float-right" role="button" href="<?= $base_url; ?>/find-an-expert/index.php" target="_self">
                 Find a dealer
               </a>
             </div>
@@ -163,71 +163,71 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/index.php" target="_self" class="nav-link">
                             All Products
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/airside/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/index.php" target="_self" class="nav-link">
                             Airside
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/air-handlers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/air-handlers/index.php" target="_self" class="nav-link">
                             Air Handlers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/air-terminals/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/air-terminals/index.php" target="_self" class="nav-link">
                             Air Terminals
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/beams/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/beams/index.php" target="_self" class="nav-link">
                             Beams
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/coils/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/coils/index.php" target="_self" class="nav-link">
                             Coils
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/fan-coils/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/fan-coils/index.php" target="_self" class="nav-link">
                             Fan Coils
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/induction-units/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/induction-units/index.php" target="_self" class="nav-link">
                             Induction Units
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/unit-ventilators/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/unit-ventilators/index.php" target="_self" class="nav-link">
                             Unit Ventilators
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/chillers-components/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/chillers-components/index.php" target="_self" class="nav-link">
                             Chillers &amp; Components
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/chillers-components/air-cooled-chillers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/chillers-components/air-cooled-chillers/index.php" target="_self" class="nav-link">
                             Air-Cooled Chillers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/chillers-components/water-cooled-chillers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/chillers-components/water-cooled-chillers/index.php" target="_self" class="nav-link">
                             Water-Cooled Chillers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/chillers-components/components/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/chillers-components/components/index.php" target="_self" class="nav-link">
                             Components
                           </a>
                         </li>
@@ -236,37 +236,37 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/controls/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/index.php" target="_self" class="nav-link">
                             Controls
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/controls/building-automation/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/building-automation/index.php" target="_self" class="nav-link">
                             Building Automation
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/controls/bacnet-hvac-controllers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/bacnet-hvac-controllers/index.php" target="_self" class="nav-link">
                             BACnet HVAC Controllers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/controls/carrier-comfort-network/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/carrier-comfort-network/index.php" target="_self" class="nav-link">
                             Carrier Comfort Network
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/controls/sensors/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/sensors/index.php" target="_self" class="nav-link">
                             Sensors
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/controls/thermostats/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/controls/thermostats/index.php" target="_self" class="nav-link">
                             Thermostats
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../i-vu/controls-expert-program/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/i-vu/controls-expert-program/index.php" target="_self" class="nav-link">
                             Controls Expert Program
                           </a>
                         </li>
@@ -283,34 +283,34 @@ $base_url = 'http://localhost/markdesign/careers';
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/packaged-indoor/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-indoor/index.php" target="_self" class="nav-link">
                             Packaged Indoor
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/packaged-indoor/packaged-indoor-self-contained/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-indoor/packaged-indoor-self-contained/index.php" target="_self" class="nav-link">
                             Self-Contained
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/packaged-indoor/packaged-indoor-wshps/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-indoor/packaged-indoor-wshps/index.php" target="_self" class="nav-link">
                             WSHPs
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/packaged-outdoor/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-outdoor/index.php" target="_self" class="nav-link">
                             Packaged &amp; Dedicated Outdoor Air Units
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/packaged-outdoor/outdoor-packaged-units/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-outdoor/outdoor-packaged-units/index.php" target="_self" class="nav-link">
                             Outdoor Packaged Units
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/packaged-outdoor/DOAS/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/packaged-outdoor/DOAS/index.php" target="_self" class="nav-link">
                             Dedicated Outdoor Air Systems
                           </a>
                         </li>
@@ -319,39 +319,39 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/split-systems-and-condensers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/index.php" target="_self" class="nav-link">
                             Split Systems &amp; Condensers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/split-systems-and-condensers/split-systems/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/split-systems/index.php" target="_self" class="nav-link">
                             Split Systems
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/split-systems-and-condensers/air-cooled-condensers/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/air-cooled-condensers/index.php" target="_self" class="nav-link">
                             Air-Cooled Condensers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/airside/coils/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/coils/index.php" target="_self" class="nav-link">
                             Coils
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../products/variable-refrigerant-flow/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/index.php" target="_self" class="nav-link">
                             Variable Refrigerant Flow
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/variable-refrigerant-flow/carrier-vrf-products/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/carrier-vrf-products/index.php" target="_self" class="nav-link">
                             Carrier VRF Systems
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.php" target="_self" class="nav-link">
                             Toshiba Carrier VRF Systems
                           </a>
                         </li>
@@ -420,21 +420,21 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/index.php" target="_self" class="nav-link">
                             Service Overview
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/request-information/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/request-information/index.php" target="_self" class="nav-link">
                             Request Information
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/service-forms/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/service-forms/index.php" target="_self" class="nav-link">
                             Service Forms
                           </a>
                         </li>
@@ -443,42 +443,42 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/operate-service-and-protect/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/index.php" target="_self" class="nav-link">
                             Operate, Service &amp; Protect
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/start-up-and-extended-warranty/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/start-up-and-extended-warranty/index.php" target="_self" class="nav-link">
                             Start-Up Services & Extended Warranty Protection
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/prevent-and-predict/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/prevent-and-predict/index.php" target="_self" class="nav-link">
                             Preventive & Predictive Maintenance
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/bluedge-digital/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/bluedge-digital/index.php" target="_self" class="nav-link">
                             BluEdge™ Digital
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/remote-airside-management/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/remote-airside-management/index.php" target="_self" class="nav-link">
                             Remote Airside Management
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/repairs-and-emergencies/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/repairs-and-emergencies/index.php" target="_self" class="nav-link">
                             Repairs & Emergency Service
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/equipment-overhaul/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/equipment-overhaul/index.php" target="_self" class="nav-link">
                             Equipment Overhaul
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/refrigerant-management/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/refrigerant-management/index.php" target="_self" class="nav-link">
                             Refrigerant Management
                           </a>
                         </li>
@@ -491,12 +491,12 @@ $base_url = 'http://localhost/markdesign/careers';
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/24-by-7-support-and-service/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/24-by-7-support-and-service/index.php" target="_self" class="nav-link">
                             24/7 Support & Service
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/operate-service-and-protect/consulting-engineering/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/consulting-engineering/index.php" target="_self" class="nav-link">
                             Consulting Engineering
                           </a>
                         </li>
@@ -505,27 +505,27 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/retrofit-and-optimize/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/index.php" target="_self" class="nav-link">
                             Retrofit &amp; Optimize
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/retrofit-and-optimize/baseline-analysis/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/baseline-analysis/index.php" target="_self" class="nav-link">
                             Baseline Analysis
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/retrofit-and-optimize/building-management/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/building-management/index.php" target="_self" class="nav-link">
                             Building Management Solutions
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/retrofit-and-optimize/modernize-retrofit-and-optimize/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/modernize-retrofit-and-optimize/index.php" target="_self" class="nav-link">
                             Modernize, Retrofit & Optimize
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../service/retrofit-and-optimize/equipment-replacement-solutions/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/equipment-replacement-solutions/index.php" target="_self" class="nav-link">
                             Equipment Replacement Solutions
                           </a>
                         </li>
@@ -539,33 +539,33 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/index.php" target="_self" class="nav-link">
                             Software Overview
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/hvac-system-design/software-ordering/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-ordering/index.php" target="_self" class="nav-link">
                             Order Software
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/hvac-system-design/software-downloads/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-downloads/index.php" target="_self" class="nav-link">
                             Download Software
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/software-downloads/edesign-trial-software/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-downloads/edesign-trial-software/index.php" target="_self" class="nav-link">
                             Free 90-Day eDesign Trial
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/hvac-system-design/software-training/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-training/index.php" target="_self" class="nav-link">
                             Software Training
                           </a>
                         </li>
@@ -574,44 +574,44 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/electronic-catalog/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/electronic-catalog/index.php" target="_self" class="nav-link">
                             Electronic Catalog
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/hvac-system-design/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/index.php" target="_self" class="nav-link">
                             HVAC System Design
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/blockload/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/blockload/index.php" target="_self" class="nav-link">
                             Block Load
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/building-system-optimizer/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/building-system-optimizer/index.php" target="_self" class="nav-link">
                             Building System Optimizer
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/engineering-economic-analysis/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/engineering-economic-analysis/index.php" target="_self" class="nav-link">
                             Engineering Economic Analysis
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/hourly-analysis-program/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hourly-analysis-program/index.php" target="_self" class="nav-link">
                             Hourly Analysis Program
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/refrigerant-piping-design/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/refrigerant-piping-design/index.php" target="_self" class="nav-link">
                             Refrigerant Piping Design
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/system-design-load/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/system-design-load/index.php" target="_self" class="nav-link">
                             System Design Load
                           </a>
                         </li>
@@ -620,17 +620,17 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/hvac-system-design/software-support/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-support/index.php" target="_self" class="nav-link">
                             Software Support
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../literature/newsletters/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/literature/newsletters/index.php" target="_self" class="nav-link">
                             EXchange Newsletter
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/hvac-system-design/software-support/hap-training-videos/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-support/hap-training-videos/index.php" target="_self" class="nav-link">
                             HAP Training Videos
                           </a>
                         </li>
@@ -642,26 +642,26 @@ $base_url = 'http://localhost/markdesign/careers';
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/dxf-cad-templates/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/dxf-cad-templates/index.php" target="_self" class="nav-link">
                             DXF/CAD Templates
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/revit-3d-templates/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/revit-3d-templates/index.php" target="_self" class="nav-link">
                             REVIT 3D Templates
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="../software/revit-3d-templates/revit-configuration-portal/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/revit-3d-templates/revit-configuration-portal/index.php" target="_self" class="nav-link">
                             Revit Configuration Portal
                           </a>
                         </li>
                       </ul>
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../software/mobile-apps/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/mobile-apps/index.php" target="_self" class="nav-link">
                             Mobile Apps
                           </a>
                         </li>
@@ -670,7 +670,7 @@ $base_url = 'http://localhost/markdesign/careers';
                   </div>
                 </li>
                 <li class="dropdown nav-item position-relative">
-                  <a href="../healthy-buildings/index.html" target="_self" class="nav-link">
+                  <a href="<?= $base_url; ?>/healthy-buildings/index.php" target="_self" class="nav-link">
                     Healthy Buildings
                   </a>
                 </li>
@@ -687,27 +687,27 @@ $base_url = 'http://localhost/markdesign/careers';
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/about/index.php" target="_self" class="nav-link">
                             About Carrier
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="core-values/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>about/core-values/index.php" target="_self" class="nav-link">
                             Core Values
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="fact-sheet/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>about/fact-sheet/index.php" target="_self" class="nav-link">
                             Fact Sheet
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="willis-carrier/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/willis-carrier/index.php" target="_self" class="nav-link">
                             Willis Carrier
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="history/index.html" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/history/index.php" target="_self" class="nav-link">
                             History
                           </a>
                         </li>

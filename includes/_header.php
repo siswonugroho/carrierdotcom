@@ -1,5 +1,5 @@
 <?php
-$base_url = 'http://localhost/Mark_Design/carrierdotcom';
+$base_url = 'http://localhost/markdesign/careers';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,10 +21,7 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
   <meta name="twitter:site" content="Carrier" />
   <meta name="twitter:creator" content="Carrier" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/app.min.css">
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/global.min.css" />
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/style.min.css" />
-  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/fonts.min.css">
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/styles.css">
 </head>
 
 <body>

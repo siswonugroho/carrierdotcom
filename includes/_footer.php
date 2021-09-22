@@ -193,7 +193,7 @@
     <div id="consent_blackbar" class="consent-text"></div>
   </div>
 </div>
-<script src="../../assets/scripts/app.min.js"></script>
+<script src="<?= $base_url ?>/assets/scripts/app.min.js"></script>
 <script type="text/javascript">
   var cl = cloudinary.Cloudinary.new({
     cloud_name: "carrierweb"

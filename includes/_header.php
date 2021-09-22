@@ -1,3 +1,6 @@
+<?php
+$base_url = 'http://localhost/markdesign/careers';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../assets/favicon.ico" />
+  <link rel="shortcut icon" href="<?= $base_url ?>/assets/favicon.ico" />
   <link href="https://images.carriercms.com/" rel="preconnect">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="http://s7.addthis.com/" rel="preconnect">
@@ -18,10 +21,10 @@
   <meta name="twitter:site" content="Carrier" />
   <meta name="twitter:creator" content="Carrier" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../assets/css/app.min.css">
-  <link rel="stylesheet" href="../../assets/css/global.min.css" />
-  <link rel="stylesheet" href="../../assets/css/style.min.css" />
-  <link rel="stylesheet" href="../../assets/css/fonts.min.css">
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/app.min.css">
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/global.min.css" />
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/style.min.css" />
+  <link rel="stylesheet" href="<?= $base_url ?>/assets/css/fonts.min.css">
 </head>
 
 <body>
@@ -417,7 +420,7 @@
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/index.html" target="_self" class="nav-link">
+                          <a href="../service/index.php" target="_self" class="nav-link">
                             Service Overview
                           </a>
                         </li>
@@ -440,7 +443,7 @@
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
                         <li class="nav-item link-text-strong">
-                          <a href="../service/operate-service-and-protect/index.html" target="_self" class="nav-link">
+                          <a href="../service/operate-service-and-protect/index.php" target="_self" class="nav-link">
                             Operate, Service &amp; Protect
                           </a>
                         </li>

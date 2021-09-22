@@ -1,5 +1,5 @@
 <?php
-include_once('../../includes/_header.php');
+include_once('../includes/_header.php');
 ?>
 <main class="header-static-margin">
   <section id="main-content" class="pt-one-col">
@@ -151,5 +151,5 @@ include_once('../../includes/_header.php');
   </section>
 </main>
 <?php
-include_once('../../includes/_footer.php');
+include_once('../includes/_footer.php');
 ?>

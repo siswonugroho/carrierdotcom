@@ -26,10 +26,10 @@
             </div>
         </div>
         <section id="main-content" class="pt-one-col">
-            <div style="height: 55px;" class="container-fluid ct-breadcrumb-a">
+            <div class="container-fluid ct-breadcrumb-a">
                 <div class="container">
                     <nav class="ct_breadcrumb-a d-none d-md-block" aria-label="breadcrumb">
-                        <ol style="padding-top: 25px;" class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
                             <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                 <span id="breadcrumb(1)" itemprop="name">
                                     <a itemprop="item" href="../../index.html">

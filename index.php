@@ -8,37 +8,56 @@ include_once('includes/_header.php');
       <div class="container">
       </div>
     </div>
-    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"></section>
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active bg-dark text-white p-5">
-        <span class="my-2">
-          <p class="text-uppercase font-weight-bold">1. Innovation is at our core. Make it part of your building.</p>
-          <p>At Carrier, expertise and technology come together to develop integrated solutions that drive efficiency, intelligence and sustainability in commercial buildings.</p>
-        </span>
-        <span class="my-2">
-          <p class="text-uppercase font-weight-bold">2. We're leader on so many levels.</p>
-          <p>From small office buildings to some of the world's tallest skyscrapers. Carrier is pioneering the latest HVAC solutions for all types of applications.</p>
-        </span>
-        <span class="my-2">
-          <p class="text-uppercase font-weight-bold">3. Carrier I-VU building automating system.</p>
-          <p>Optimizing building operations today is all about balancing comfort with efficiency, precision with profitability, and sophistication with simplicity.</p>
-        </span>
+    <section id="container-fluid ct-1blks-w100-basic carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-dark text-white">
+        <div class="row  text-white">
+                    <div class="col-12 p-0">
+                        <img class="cld-responsive img-fluid d-none d-lg-block"
+                            data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1591810619/carrier/commercial-hvac/graphic-elements/carrier-building-exterior-with-trees.jpg"
+                            alt=""
+                            src="../../../../images.carriercms.com/image/upload/w_2000%2cc_lfill%2cq_auto%2cf_auto/v1591810619/carrier/commercial-hvac/graphic-elements/carrier-building-exterior-with-trees.jpg">
+                        <img class="cld-responsive img-fluid d-block d-lg-none"
+                            data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1597327549/carrier/commercial-hvac/graphic-elements/carrier-blue-gradient-dots-mobile.jpg"
+                            alt=""
+                            src="../../../../images.carriercms.com/image/upload/w_2000%2cc_lfill%2cq_auto%2cf_auto/v1597327549/carrier/commercial-hvac/graphic-elements/carrier-blue-gradient-dots-mobile.jpg.gif">
+                        <div
+                            class="container card-body card-img-overlay d-flex align-items-center justify-content-center">
+                            <div class="row w-100">
+                                <div class="col-md-6 mt-2 ml-4">
+                                    <h2 style="font-size:1.2rem;color:#ffffff;">1. Innovation is at our core. Make it part of your building</h2>
+                                    <p style="font-size:.8rem;color:#ffffff;">At Carrier, expertise and technology come together to develop integrated solutions that drive efficiency, intelligence and sustainability in commercial buildings</p>
+                                    <h2 style="font-size:1.2rem;color:#ffffff;">2. We're leader on so many levels</h2>
+                                    <p style="font-size:.8rem;color:#ffffff;">From small office buildings to some of the world's tallest skyscrapers. Carrier is pioneering the latest HVAC solutions for all types of applications.</p>
+                                    <h2 style="font-size:1.2rem;color:#ffffff;">3. Carrier I-VU building automating system.</h2>
+                                    <p style="font-size:.8rem;color:#ffffff;">Optimizing building operations today is all about balancing comfort with efficiency, precision with profitability, and sophistication with simplicity.</p>
+                                    <!-- <p style="text-align:center;"><a class="btn btn-primary mt-3"
+                                            style="background-color:transparent;border:1px solid #ffffff;"
+                                            href="healthy-buildings.php">Learn More </a></p> -->
+                                            
+                                </div>
+                                <div class="col-md-6">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
       </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
   </section>
   <section class="container ct-card-collection-w4-01     ">
     <header class="my-5">
@@ -131,9 +150,9 @@ include_once('includes/_header.php');
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-12 text-center text-white pb-4">
+          <div class="col-md-6 col-lg-12 text-center text-white ">
             <div class="card h-100 bg-primary border-0" style="border-radius:0;">
-              <div class="card-body  d-flex align-items-center justify-content-center">
+              <div class="card-body  d-flex align-items-center h-100 justify-content-center">
                 <div>
                   <div class="card-title">SUSTAINABILITY</div>
                   <a class="btn btn-outline-light text-uppercase" href="tel:800-379-6484" target="_self" aria-label="">

@@ -1,6 +1,6 @@
 <?php
-// $base_url = 'http://localhost/markdesign/careers';
-$base_url = 'http://localhost/Mark_Design/carrierdotcom';
+$base_url = 'http://localhost/markdesign/careers';
+// $base_url = 'http://localhost/Mark_Design/carrierdotcom';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -159,253 +159,124 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products<span class="sr-only"></span></a>
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown1">
                     <div class="col-md-3 display-md-table-cell">
+
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/index.php" target="_self" class="nav-link">
-                            All Products
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/airside/index.php" target="_self" class="nav-link">
-                            Airside
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/products/airside/index.php" target="_self" class="nav-link text-dark">
+                            Commercial
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/air-handlers/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/air-terminals/index.php" target="_self" class="nav-link text-dark">
+                            Chillers
+                          </a>
+                        </li>
+                        <li class="nav-item link-text-indent">
+                          <a href="<?= $base_url; ?>/products/airside/air-handlers/index.php" target="_self" class="nav-link text-dark">
                             Air Handlers
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/air-terminals/index.php" target="_self" class="nav-link">
-                            Air Terminals
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/beams/index.php" target="_self" class="nav-link">
-                            Beams
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/coils/index.php" target="_self" class="nav-link">
-                            Coils
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/fan-coils/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/fan-coils/index.php" target="_self" class="nav-link text-dark">
                             Fan Coils
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/induction-units/index.php" target="_self" class="nav-link">
-                            Induction Units
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/unit-ventilators/index.php" target="_self" class="nav-link">
-                            Unit Ventilators
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/chillers-components/index.php" target="_self" class="nav-link">
-                            Chillers &amp; Components
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/chillers-components/air-cooled-chillers/index.php" target="_self" class="nav-link">
-                            Air-Cooled Chillers
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/chillers-components/water-cooled-chillers/index.php" target="_self" class="nav-link">
-                            Water-Cooled Chillers
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/chillers-components/components/index.php" target="_self" class="nav-link">
-                            Components
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 display-md-table-cell">
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/controls/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/beams/index.php" target="_self" class="nav-link text-dark">
                             Controls
                           </a>
                         </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/controls/building-automation/index.php" target="_self" class="nav-link">
-                            Building Automation
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/controls/bacnet-hvac-controllers/index.php" target="_self" class="nav-link">
-                            BACnet HVAC Controllers
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/controls/carrier-comfort-network/index.php" target="_self" class="nav-link">
-                            Carrier Comfort Network
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/controls/sensors/index.php" target="_self" class="nav-link">
-                            Sensors
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/controls/thermostats/index.php" target="_self" class="nav-link">
-                            Thermostats
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/i-vu/controls-expert-program/index.php" target="_self" class="nav-link">
-                            Controls Expert Program
-                          </a>
-                        </li>
                       </ul>
+                    </div>
+
+                    <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="https://www.carrier.com/residential/en/us/products/ductless-systems/" target="_self" class="nav-link">
-                            Ductless Systems
-                            <i class="material-icons align-bottom">
-                              open_in_new
-                            </i>
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/packaged-indoor/index.php" target="_self" class="nav-link">
-                            Packaged Indoor
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/products/controls/index.php" target="_self" class="nav-link text-dark">
+                            Light Commercial
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/packaged-indoor/packaged-indoor-self-contained/index.php" target="_self" class="nav-link">
-                            Self-Contained
+                          <a href="<?= $base_url; ?>/products/controls/building-automation/index.php" target="_self" class="nav-link text-dark">
+                            Cassette
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/packaged-indoor/packaged-indoor-wshps/index.php" target="_self" class="nav-link">
-                            WSHPs
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/packaged-outdoor/index.php" target="_self" class="nav-link">
-                            Packaged &amp; Dedicated Outdoor Air Units
+                          <a href="<?= $base_url; ?>/products/controls/bacnet-hvac-controllers/index.php" target="_self" class="nav-link text-dark">
+                            Ducted
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/packaged-outdoor/outdoor-packaged-units/index.php" target="_self" class="nav-link">
-                            Outdoor Packaged Units
+                          <a href="<?= $base_url; ?>/products/controls/carrier-comfort-network/index.php" target="_self" class="nav-link text-dark">
+                            Console
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/packaged-outdoor/DOAS/index.php" target="_self" class="nav-link">
-                            Dedicated Outdoor Air Systems
+                          <a href="<?= $base_url; ?>/products/controls/sensors/index.php" target="_self" class="nav-link text-dark">
+                            Floor Standing
+                          </a>
+                        </li>
+                        <li class="nav-item link-text-indent">
+                          <a href="<?= $base_url; ?>/products/controls/thermostats/index.php" target="_self" class="nav-link text-dark">
+                            Multi Split
+                          </a>
+                        </li>
+                        <li class="nav-item link-text-indent">
+                          <a href="<?= $base_url; ?>/i-vu/controls-expert-program/index.php" target="_self" class="nav-link text-dark">
+                            Water Cooled Package Unit
                           </a>
                         </li>
                       </ul>
                     </div>
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/index.php" target="_self" class="nav-link">
-                            Split Systems &amp; Condensers
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/index.php" target="_self" class="nav-link text-dark">
+                            VRF Systems
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/split-systems/index.php" target="_self" class="nav-link">
-                            Split Systems
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/split-systems/index.php" target="_self" class="nav-link text-dark">
+                            Outdoor Units
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/air-cooled-condensers/index.php" target="_self" class="nav-link">
-                            Air-Cooled Condensers
+                          <a href="<?= $base_url; ?>/products/split-systems-and-condensers/air-cooled-condensers/index.php" target="_self" class="nav-link text-dark">
+                            Indoor Units
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/airside/coils/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/products/airside/coils/index.php" target="_self" class="nav-link text-dark">
                             Coils
                           </a>
                         </li>
                       </ul>
+                    </div>
+                    <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/index.php" target="_self" class="nav-link">
-                            Variable Refrigerant Flow
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/index.php" target="_self" class="nav-link text-dark">
+                            Residential
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/carrier-vrf-products/index.php" target="_self" class="nav-link">
-                            Carrier VRF Systems
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/carrier-vrf-products/index.php" target="_self" class="nav-link text-dark">
+                            Inverter R32 Air Conditioner
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.php" target="_self" class="nav-link">
-                            Toshiba Carrier VRF Systems
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="http://www.totaline.com/" target="_blank" class="nav-link">
-                            Parts &amp; Supplies
-                            <i class="material-icons align-bottom">
-                              open_in_new
-                            </i>
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="https://www.carrier.com/residential/en/us/" target="_blank" class="nav-link">
-                            Residential Products
-                            <i class="material-icons align-bottom">
-                              open_in_new
-                            </i>
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.php" target="_self" class="nav-link text-dark">
+                            Inverter R410A Air Conditioner
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/air-conditioners/" target="_blank" class="nav-link">
-                            Air Conditioners
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.php" target="_self" class="nav-link text-dark">
+                            Fix Speed R32 Air Conditioner
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/heat-pumps/" target="_blank" class="nav-link">
-                            Heat Pumps
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/packaged-products/" target="_self" class="nav-link">
-                            Packaged Products
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/evaporator-coils/" target="_blank" class="nav-link">
-                            Evaporator Coils
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/fan-coils/" target="_blank" class="nav-link">
-                            Fan Coils
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/furnaces/" target="_blank" class="nav-link">
-                            Furnaces
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/residential/en/us/products/boilers/" target="_blank" class="nav-link">
-                            Boilers
+                          <a href="<?= $base_url; ?>/products/variable-refrigerant-flow/toshiba-carrier-vrf-products/index.php" target="_self" class="nav-link text-dark">
+                            Fix Speed R410A Air Conditioner
                           </a>
                         </li>
                       </ul>
@@ -417,114 +288,19 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown2">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/service/index.php" target="_self" class="nav-link">
-                            Service Overview
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/index.php" target="_self" class="nav-link text-dark">
+                            Service
                           </a>
                         </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/service/request-information/index.php" target="_self" class="nav-link">
-                            Request Information
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/service/service-forms/index.php" target="_self" class="nav-link">
-                            Service Forms
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 display-md-table-cell">
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/index.php" target="_self" class="nav-link">
+                        <li class="nav-item link-text-indent">
+                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/start-up-and-extended-warranty/index.php" target="_self" class="nav-link text-dark">
                             Operate, Service &amp; Protect
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/start-up-and-extended-warranty/index.php" target="_self" class="nav-link">
-                            Start-Up Services & Extended Warranty Protection
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/prevent-and-predict/index.php" target="_self" class="nav-link">
-                            Preventive & Predictive Maintenance
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/bluedge-digital/index.php" target="_self" class="nav-link">
-                            BluEdge™ Digital
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/remote-airside-management/index.php" target="_self" class="nav-link">
-                            Remote Airside Management
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/repairs-and-emergencies/index.php" target="_self" class="nav-link">
-                            Repairs & Emergency Service
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/equipment-overhaul/index.php" target="_self" class="nav-link">
-                            Equipment Overhaul
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/refrigerant-management/index.php" target="_self" class="nav-link">
-                            Refrigerant Management
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="https://www.carrier.com/rentals/en/us" target="_blank" class="nav-link">
-                            Temporary Solutions
-                            <i class="material-icons align-bottom">
-                              open_in_new
-                            </i>
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/24-by-7-support-and-service/index.php" target="_self" class="nav-link">
-                            24/7 Support & Service
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/operate-service-and-protect/consulting-engineering/index.php" target="_self" class="nav-link">
-                            Consulting Engineering
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 display-md-table-cell">
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/index.php" target="_self" class="nav-link text-dark">
                             Retrofit &amp; Optimize
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/baseline-analysis/index.php" target="_self" class="nav-link">
-                            Baseline Analysis
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/building-management/index.php" target="_self" class="nav-link">
-                            Building Management Solutions
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/modernize-retrofit-and-optimize/index.php" target="_self" class="nav-link">
-                            Modernize, Retrofit & Optimize
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/service/retrofit-and-optimize/equipment-replacement-solutions/index.php" target="_self" class="nav-link">
-                            Equipment Replacement Solutions
                           </a>
                         </li>
                       </ul>
@@ -536,131 +312,14 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown4">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/index.php" target="_self" class="nav-link">
-                            Software Overview
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-ordering/index.php" target="_self" class="nav-link">
-                            Order Software
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-downloads/index.php" target="_self" class="nav-link">
-                            Download Software
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/software/hvac-system-design/index.php" target="_self" class="nav-link text-dark">
+                            Software
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-downloads/edesign-trial-software/index.php" target="_self" class="nav-link">
-                            Free 90-Day eDesign Trial
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-training/index.php" target="_self" class="nav-link">
-                            Software Training
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 display-md-table-cell">
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/electronic-catalog/index.php" target="_self" class="nav-link">
-                            Electronic Catalog
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/index.php" target="_self" class="nav-link">
-                            HVAC System Design
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/blockload/index.php" target="_self" class="nav-link">
-                            Block Load
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/building-system-optimizer/index.php" target="_self" class="nav-link">
-                            Building System Optimizer
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/engineering-economic-analysis/index.php" target="_self" class="nav-link">
-                            Engineering Economic Analysis
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hourly-analysis-program/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/software/hourly-analysis-program/index.php" target="_self" class="nav-link text-dark">
                             Hourly Analysis Program
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/refrigerant-piping-design/index.php" target="_self" class="nav-link">
-                            Refrigerant Piping Design
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/system-design-load/index.php" target="_self" class="nav-link">
-                            System Design Load
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3 display-md-table-cell">
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-support/index.php" target="_self" class="nav-link">
-                            Software Support
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/literature/newsletters/index.php" target="_self" class="nav-link">
-                            EXchange Newsletter
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/hvac-system-design/software-support/hap-training-videos/index.php" target="_self" class="nav-link">
-                            HAP Training Videos
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a target="_self" class="nav-link">
-                            HAP FAQs
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/dxf-cad-templates/index.php" target="_self" class="nav-link">
-                            DXF/CAD Templates
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/revit-3d-templates/index.php" target="_self" class="nav-link">
-                            REVIT 3D Templates
-                          </a>
-                        </li>
-                        <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/software/revit-3d-templates/revit-configuration-portal/index.php" target="_self" class="nav-link">
-                            Revit Configuration Portal
-                          </a>
-                        </li>
-                      </ul>
-                      <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/software/mobile-apps/index.php" target="_self" class="nav-link">
-                            Mobile Apps
                           </a>
                         </li>
                       </ul>
@@ -689,29 +348,34 @@ $base_url = 'http://localhost/Mark_Design/carrierdotcom';
                   <div class="dropdown-menu row" aria-labelledby="navbarDropdown10">
                     <div class="col-md-3 display-md-table-cell">
                       <ul class="ct-menusub-basic-header mr-auto submenu-title">
-                        <li class="nav-item link-text-strong">
-                          <a href="<?= $base_url; ?>/about/index.php" target="_self" class="nav-link">
+                        <li class="nav-item link-text-strong text-uppercase">
+                          <a href="<?= $base_url; ?>/about/index.php" target="_self" class="nav-link text-dark">
                             About Carrier
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>about/core-values/index.php" target="_self" class="nav-link">
-                            Core Values
+                          <a href="<?= $base_url; ?>about/fact-sheet/index.php" target="_self" class="nav-link text-dark">
+                            Carrier Indonesia
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>about/fact-sheet/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>about/fact-sheet/index.php" target="_self" class="nav-link text-dark">
                             Fact Sheet
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/willis-carrier/index.php" target="_self" class="nav-link">
-                            Willis Carrier
+                          <a href="<?= $base_url; ?>about/core-values/index.php" target="_self" class="nav-link text-dark">
+                            Core Values
                           </a>
                         </li>
                         <li class="nav-item link-text-indent">
-                          <a href="<?= $base_url; ?>/history/index.php" target="_self" class="nav-link">
+                          <a href="<?= $base_url; ?>/history/index.php" target="_self" class="nav-link text-dark">
                             History
+                          </a>
+                        </li>
+                        <li class="nav-item link-text-indent">
+                          <a href="<?= $base_url; ?>/willis-carrier/index.php" target="_self" class="nav-link text-dark">
+                            Willis Carrier
                           </a>
                         </li>
                       </ul>

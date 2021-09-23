@@ -1,5 +1,28 @@
 <?php
 include_once('../includes/_header.php');
+
+$list_benefits = [
+  [
+    'pict' => 'https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559052878/carrier/commercial-hvac/people/carrier-technician-evaluating-hvac-equipment.jpg',
+    'title' => 'Core Values',
+    'desc' => 'Our core values define who we are and guide every decision we make. These values are the pillars of our business. They are: Quality, Performance, Responsibility, Innovation, Customer Care and Employee Opportunity.'
+  ],
+  [
+    'pict' => 'https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559057403/carrier/commercial-hvac/people/carrier-rentals-contingency-planning-services.jpg',
+    'title' => 'Customer Service',
+    'desc' => 'When you partner with us, you’ll work with recognized HVAC professionals – all with a clear focus on the importance of every aspect of your investment. Your decision to select Carrier was an important one… as is our relationship with you. We take both very seriously.'
+  ],
+  [
+    'pict' => 'https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559057512/carrier/commercial-hvac/people/carrier-engineers-reviewing-plans.jpg',
+    'title' => 'Safety Focus',
+    'desc' => 'Environmental Health and Safety (EH&amp;S) is rooted in our culture. We support a multifaceted EH&amp;S management system which ensures a focused approach to safety every day. On all levels, we adhere to the most stringent safety standards, which translates to safety on your job site.'
+  ],
+  [
+    'pict' => 'https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1570116485/carrier/commercial-hvac/people/carrier-service-technician-with-tablet.jpg',
+    'title' => 'Equipment Expertise',
+    'desc' => 'We have access to the latest engineering advancements and the most advanced technical servicing tools. Our expansive OEM service network has strategically-located offices in the United States and Canada.'
+  ],
+];
 ?>
 <main class="header-static-margin">
   <section id="main-content" class="pt-one-col">
@@ -38,8 +61,8 @@ include_once('../includes/_header.php');
       <div>
         <div class="position-relative">
           <div class="d-flex h-100 justify-content-center align-items-center hero-img">
-            <img class="cld-responsive d-none d-lg-block" data-src="https://images.carriercms.com/image/upload/w_auto,h_400,c_fill,g_center,q_auto,f_auto/v1570110209/carrier/commercial-hvac/people/carrier-service-technician-in-equipment-room-servicing-panel-crop.jpg" alt="carrier-service-technician-in-equipment-room-servicing-panel-crop" loading="lazy" />
-            <img class="cld-responsive d-block d-lg-none" data-src="https://images.carriercms.com/image/upload/w_auto,h_400,c_fill,g_center,q_auto,f_auto/v1579187792/carrier/commercial-hvac/people/carrier-service-technician-in-equipment-room-servicing-panel-mobile.jpg" alt="carrier-service-technician-in-equipment-room-servicing-panel-mobile" loading="lazy" />
+            <img class="cld-responsive d-none d-lg-block" data-src="https://via.placeholder.com/1920x300.png?text=img" alt="carrier-service-technician-in-equipment-room-servicing-panel-crop" loading="lazy" />
+            <img class="cld-responsive d-block d-lg-none" data-src="https://via.placeholder.com/1920x300.png?text=img" alt="carrier-service-technician-in-equipment-room-servicing-panel-mobile" loading="lazy" />
           </div>
         </div>
         <div class="container position-relative p-0 ">
@@ -54,56 +77,26 @@ include_once('../includes/_header.php');
           Whether you are an engineer, contractor, architect, manager or owner, you can count on Carrier's expertise and offerings to help you get the most from your HVAC system from start-up through the entire lifecycle.</p>
       </div>
     </div>
-        <section class="container ct-card-collection-w4-01     ">
+    <section class="container ct-card-collection-w4-01">
       <div class="row">
         <div class="col-12">
         </div>
       </div>
       <div class="row pb-2 bg-white">
+
+      <?php foreach($list_benefits as $item) : ?>
         <div class="col-md-4 col-lg-3 mb-3 card-container">
           <div class="h-100 text-center">
             <div class="card-body">
-              <img class="cld-responsive rounded rounded-circle img-fluid" style="height: 10rem; width: 10rem; object-fit: cover;" data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559052878/carrier/commercial-hvac/people/carrier-technician-evaluating-hvac-equipment.jpg" alt="carrier-technician-evaluating-hvac-equipment" loading="lazy" />
-              <div class="card-title h2 mt-2">Core Values</div>
+              <img class="cld-responsive rounded rounded-circle img-fluid" style="height: 10rem; width: 10rem; object-fit: cover;" data-src="<?= $item['pict'] ?>" alt="<?= $item['title'] ?>" loading="lazy" />
+              <div class="card-title h2 mt-2"><?= $item['title'] ?></div>
               <div class="card-text">
-                <p class="small">Our core values define who we are and guide every decision we make. These values are the pillars of our business. They are: Quality, Performance, Responsibility, Innovation, Customer Care and Employee Opportunity.</p>
+                <p class="small"><?= $item['desc'] ?></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-lg-3 mb-3 card-container">
-          <div class="h-100 text-center">
-            <div class="card-body">
-              <img class="cld-responsive rounded rounded-circle img-fluid" style="height: 10rem; width: 10rem; object-fit: cover;" data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559057403/carrier/commercial-hvac/people/carrier-rentals-contingency-planning-services.jpg" alt="carrier-rentals-contingency-planning-services" loading="lazy" />
-              <div class="card-title h2 mt-2">Customer Service</div>
-              <div class="card-text">
-                <p class="small">When you partner with us, you’ll work with recognized HVAC professionals – all with a clear focus on the importance of every aspect of your investment. Your decision to select Carrier was an important one… as is our relationship with you. We take both very seriously.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3 mb-3 card-container">
-          <div class="h-100 text-center">
-            <div class="card-body">
-              <img class="cld-responsive rounded rounded-circle img-fluid" style="height: 10rem; width: 10rem; object-fit: cover;" data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1559057512/carrier/commercial-hvac/people/carrier-engineers-reviewing-plans.jpg" alt="carrier-engineers-reviewing-plans" loading="lazy" />
-              <div class="card-title h2 mt-2">Safety Focus</div>
-              <div class="card-text">
-                <p class="small">Environmental Health and Safety (EH&amp;S) is rooted in our culture. We support a multifaceted EH&amp;S management system which ensures a focused approach to safety every day. On all levels, we adhere to the most stringent safety standards, which translates to safety on your job site.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3 mb-3 card-container">
-          <div class="h-100 text-center">
-            <div class="card-body">
-              <img class="cld-responsive rounded rounded-circle img-fluid" style="height: 10rem; width: 10rem; object-fit: cover;" data-src="https://images.carriercms.com/image/upload/w_auto,c_lfill,q_auto,f_auto/v1570116485/carrier/commercial-hvac/people/carrier-service-technician-with-tablet.jpg" alt="carrier-service-technician-with-tablet" loading="lazy" />
-              <div class="card-title h2 mt-2">Equipment Expertise</div>
-              <div class="card-text">
-                <p class="small">We have access to the latest engineering advancements and the most advanced technical servicing tools. Our expansive OEM service network has strategically-located offices in the United States and Canada.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <?php endforeach ?>
       </div>
     </section>
     <section class="container ct-card-collection-w2-basic mb-4 mt-4 ">
@@ -123,7 +116,7 @@ include_once('../includes/_header.php');
               </div>
             </div>
             <div class="card-footer border-0 bg-transparent text-center">
-              <a class="btn" href="operate-service-and-protect/index.html" target="_self" aria-label="">
+              <a class="btn" href="listing.php?name=<?php echo urlencode("Operate, Service &amp; Protect") ?>" target="_self" aria-label="">
                 Operate, Service &amp; Protect
               </a>
             </div>
@@ -139,7 +132,7 @@ include_once('../includes/_header.php');
               </div>
             </div>
             <div class="card-footer border-0 bg-transparent text-center">
-              <a class="btn" href="retrofit-and-optimize/index.html" target="_self" aria-label="">
+              <a class="btn" href="listing.php?name=<?php echo urlencode("Retrofit &amp; Optimize") ?>" target="_self" aria-label="">
                 Retrofit &amp; Optimize
               </a>
             </div>
